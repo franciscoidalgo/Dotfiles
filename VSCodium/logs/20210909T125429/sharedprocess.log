@@ -1,0 +1,19 @@
+[2021-09-09 12:54:42.703] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
+[2021-09-09 12:54:42.704] [sharedprocess] [info] [logs cleanup]: Removing log folders '20210908T162412'
+[2021-09-09 12:54:47.828] [sharedprocess] [info] Installing extension: ms-python.python
+[2021-09-09 12:54:49.000] [sharedprocess] [error] Error while preparing to install dependencies and extension packs of the extension: ms-python.python
+[2021-09-09 12:54:49.001] [sharedprocess] [error] incompatible: Can't install 'ms-toolsai.jupyter' extension because it is not compatible with the current version of VS Code (version 1.60.0).
+    at O.checkAndGetCompatibleVersion (file:///usr/share/vscodium-bin/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:48:11745)
+    at async l (file:///usr/share/vscodium-bin/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:48:10947)
+    at async O.getAllDepsAndPackExtensionsToInstall (file:///usr/share/vscodium-bin/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:48:11256)
+    at async O.installExtension (file:///usr/share/vscodium-bin/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:48:5785)
+[2021-09-09 12:54:49.001] [sharedprocess] [error] Failed to install extension: ms-python.python Can't install 'ms-toolsai.jupyter' extension because it is not compatible with the current version of VS Code (version 1.60.0).
+[2021-09-09 12:55:02.704] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
+[2021-09-09 12:55:02.705] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
+[2021-09-09 12:55:12.703] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.
+[2021-09-09 12:59:27.810] [sharedprocess] [error] Can't install 'ms-toolsai.jupyter' extension because it is not compatible with the current version of VS Code (version 1.60.0).
+[2021-09-09 13:00:48.588] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2021-09-09 13:00:51.385] [sharedprocess] [info] Extracted extension to /home/qtile/.vscode-oss/extensions/.4a12778d-7c45-4b52-be45-7e99b7e9f7c7: ms-toolsai.jupyter
+[2021-09-09 13:00:51.452] [sharedprocess] [info] Renamed to /home/qtile/.vscode-oss/extensions/ms-toolsai.jupyter-2021.2.603412351
+[2021-09-09 13:00:51.459] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter
+[2021-09-09 13:00:51.510] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter

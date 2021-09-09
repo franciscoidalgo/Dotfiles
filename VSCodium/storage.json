@@ -6,6 +6,12 @@
                 "folderUri": "file:///home/qtile"
             },
             {
+                "fileUri": "file:///home/qtile/.config/qtile/config.py"
+            },
+            {
+                "fileUri": "file:///home/qtile/.config/nautilus/search-metadata"
+            },
+            {
                 "fileUri": "file:///home/qtile/Documents/rofi-nord/config.rasi"
             }
         ]
@@ -44,8 +50,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -54,8 +59,6 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/qtile",
-                                        "external": "file:///home/qtile",
                                         "path": "/home/qtile",
                                         "scheme": "file"
                                     },
@@ -69,6 +72,29 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/qtile/.config/qtile/config.py",
+                                        "path": "/home/qtile/.config/qtile/config.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/qtile/config.py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/qtile/.config/nautilus/search-metadata",
+                                        "path": "/home/qtile/.config/nautilus/search-metadata",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/nautilus/search-metadata"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/qtile/Documents/rofi-nord/config.rasi",
                                         "path": "/home/qtile/Documents/rofi-nord/config.rasi",
                                         "scheme": "file"
                                     },
@@ -197,10 +223,6 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
-                    },
-                    {
-                        "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -396,7 +418,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar"
+                                    "label": "Show &&Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -599,7 +622,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -911,8 +935,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1100,11 +1123,6 @@
             "workbench.action.closeActiveEditor": {
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
-            },
-            "workbench.action.closeFolder": {
-                "label": "Ctrl+K F",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k f"
             },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
@@ -1486,24 +1504,23 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 170,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/qtile",
-            "backupPath": "/home/qtile/.config/VSCodium/Backups/33d44b6e5d2f5c53f807a9f88c21f0e3",
+            "backupPath": "/home/qtile/.config/VSCodium/Backups/1631146535930",
             "uiState": {
                 "mode": 1,
-                "x": 1,
-                "y": 11,
-                "width": 1364,
-                "height": 732
+                "x": 0,
+                "y": 10,
+                "width": 1366,
+                "height": 734
             }
         },
         "openedWindows": []
     },
-    "pickerWorkingDir": "/home"
+    "pickerWorkingDir": "/home/qtile/.config/qtile"
 }

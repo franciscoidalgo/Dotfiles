@@ -1,0 +1,1 @@
+[2021-09-09 13:02:09.210] [renderer1] [error] EACCES: permission denied, open '/usr/share/vscodium-bin/resources/app/extensions/python/package.json': Error: EACCES: permission denied, open '/usr/share/vscodium-bin/resources/app/extensions/python/package.json'

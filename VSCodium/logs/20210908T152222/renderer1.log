@@ -1,8 +1,0 @@
-[2021-09-08 15:22:25.929] [renderer1] [error] net::ERR_INTERNET_DISCONNECTED: Error: net::ERR_INTERNET_DISCONNECTED
-    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:7068)
-    at SimpleURLLoaderWrapper.emit (events.js:315:20)
-[2021-09-08 15:22:27.165] [renderer1] [error] XHR failed: Error: XHR failed
-    at XMLHttpRequest.w.onerror (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:85:24532)
-[2021-09-08 15:22:27.905] [renderer1] [error] net::ERR_INTERNET_DISCONNECTED: Error: net::ERR_INTERNET_DISCONNECTED
-    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:7068)
-    at SimpleURLLoaderWrapper.emit (events.js:315:20)

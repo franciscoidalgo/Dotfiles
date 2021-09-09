@@ -1,0 +1,13 @@
+[2021-09-09 12:48:50.366] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
+[2021-09-09 12:48:50.368] [sharedprocess] [info] [logs cleanup]: Removing log folders '20210908T154028'
+[2021-09-09 12:49:10.364] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
+[2021-09-09 12:49:10.365] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
+[2021-09-09 12:49:20.366] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.
+[2021-09-09 12:52:13.895] [sharedprocess] [info] Installing extension: ms-python.python
+[2021-09-09 12:52:14.963] [sharedprocess] [error] Error while preparing to install dependencies and extension packs of the extension: ms-python.python
+[2021-09-09 12:52:14.963] [sharedprocess] [error] incompatible: Can't install 'ms-toolsai.jupyter' extension because it is not compatible with the current version of VS Code (version 1.60.0).
+    at O.checkAndGetCompatibleVersion (file:///usr/share/vscodium-bin/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:48:11745)
+    at async l (file:///usr/share/vscodium-bin/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:48:10947)
+    at async O.getAllDepsAndPackExtensionsToInstall (file:///usr/share/vscodium-bin/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:48:11256)
+    at async O.installExtension (file:///usr/share/vscodium-bin/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:48:5785)
+[2021-09-09 12:52:14.964] [sharedprocess] [error] Failed to install extension: ms-python.python Can't install 'ms-toolsai.jupyter' extension because it is not compatible with the current version of VS Code (version 1.60.0).

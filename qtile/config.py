@@ -114,13 +114,14 @@ keys = [
 groups = [
     Group(name, **kwargs)
     for name, kwargs in [
-        ("WEB", {"matches": [Match(wm_class=["firefox"])]}),
-        ("DEV1", {}),
-        ("DEV2", {}),
-        ("MISC", {}),
-        ("DISC", {"matches": [Match(wm_class=["discord"])]}),
-        ("MUS", {"matches": [Match(wm_class=["spotify"])]}),
-        ("FM",{"matches": [Match(wm_class=["thunar"])]})
+            ("WEB", {"matches": [Match(wm_class=["firefox"])]}),
+            ("DEV1", {}),
+            ("DEV2", {}),
+            ("MISC", {}),
+            ("DISC", {"matches": [Match(wm_class=["discord"])]}),
+            ("MUS", {"matches": [Match(wm_class=["spotify"])]}),
+            ("FM", {"matches": [Match(wm_class=["thunar"])]}),
+            ("DOOM",{"matches": [Match(wm_class=["emacs"])], "persist":False, "init":False, "layout":'max'})
     ]
 ]
 
@@ -151,8 +152,10 @@ layouts = [
     #    border_normal=my_colors.normal
     # ),
     layout.Columns(
-        border_focus=my_colors.focus,  
+        border_focus=my_colors.focus,
+        border_focus_stack=my_colors.focus,
         border_normal=my_colors.normal,
+        border_normal_stack=my_colors.normal,
         margin= 1
     ),
     layout.Max(),
