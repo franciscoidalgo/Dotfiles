@@ -1,0 +1,42 @@
+[2021-09-10 16:51:24.091] [exthost] [info] extension host started
+[2021-09-10 16:51:24.091] [exthost] [info] Skipping acquiring lock for /home/qtile/.config/VSCodium/User/workspaceStorage/fd726fa270eea6ad5043742a147ee5f0.
+[2021-09-10 16:51:24.313] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"extensionId":{"value":"ms-python.python","_lower":"ms-python.python"},"activationEvent":"onLanguage:python"}
+[2021-09-10 16:51:24.314] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/qtile/.vscode-oss/extensions/ms-python.python-2021.8.1159798656/out/client/extension
+[2021-09-10 16:51:24.508] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter {"startup":false,"extensionId":{"value":"ms-toolsai.jupyter","_lower":"ms-toolsai.jupyter"},"activationEvent":"onLanguage:python"}
+[2021-09-10 16:51:24.508] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/qtile/.vscode-oss/extensions/ms-toolsai.jupyter-2021.2.603412351/out/client/extension
+[2021-09-10 16:51:24.820] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-09-10 16:51:24.820] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-09-10 16:51:24.825] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-09-10 16:51:24.825] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/git/dist/main
+[2021-09-10 16:51:25.124] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-09-10 16:51:25.124] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/github/dist/extension.js
+[2021-09-10 16:51:25.333] [exthost] [error] Activating extension ms-toolsai.jupyter failed due to an error:
+[2021-09-10 16:51:25.333] [exthost] [error] TypeError: o.getConfiguration(...).get(...).find is not a function
+	at new m (/home/qtile/.vscode-oss/extensions/ms-toolsai.jupyter-2021.2.603412351/out/client/extension.js:47:685418)
+	at Object.t.resolveInstance (/home/qtile/.vscode-oss/extensions/ms-toolsai.jupyter-2021.2.603412351/out/client/extension.js:47:237116)
+	at /home/qtile/.vscode-oss/extensions/ms-toolsai.jupyter-2021.2.603412351/out/client/extension.js:47:236322
+	at Object.t.resolve (/home/qtile/.vscode-oss/extensions/ms-toolsai.jupyter-2021.2.603412351/out/client/extension.js:47:236585)
+	at /home/qtile/.vscode-oss/extensions/ms-toolsai.jupyter-2021.2.603412351/out/client/extension.js:47:227686
+	at e._get (/home/qtile/.vscode-oss/extensions/ms-toolsai.jupyter-2021.2.603412351/out/client/extension.js:47:227452)
+	at e.get (/home/qtile/.vscode-oss/extensions/ms-toolsai.jupyter-2021.2.603412351/out/client/extension.js:47:226164)
+	at a.get (/home/qtile/.vscode-oss/extensions/ms-toolsai.jupyter-2021.2.603412351/out/client/extension.js:49:887437)
+	at /home/qtile/.vscode-oss/extensions/ms-toolsai.jupyter-2021.2.603412351/out/client/extension.js:47:269530
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async /home/qtile/.vscode-oss/extensions/ms-toolsai.jupyter-2021.2.603412351/out/client/extension.js:32:722103
+	at async t.activate (/home/qtile/.vscode-oss/extensions/ms-toolsai.jupyter-2021.2.603412351/out/client/extension.js:32:721813)
+	at async Promise.all (index 1)
+[2021-09-10 16:51:25.334] [exthost] [info] eager extensions activated
+[2021-09-10 16:51:25.576] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-09-10 16:51:25.577] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-09-10 16:51:25.788] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-09-10 16:51:25.788] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-09-10 16:51:25.802] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-09-10 16:51:25.802] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-09-10 16:51:43.248] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2021-09-10 16:51:43.249] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2021-09-10 16:51:43.255] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-09-10 16:51:43.255] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-09-10 16:51:43.287] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-09-10 16:51:43.288] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/typescript-language-features/dist/extension
+[2021-09-10 16:53:53.980] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-09-10 16:53:55.000] [exthost] [info] exiting with code 0

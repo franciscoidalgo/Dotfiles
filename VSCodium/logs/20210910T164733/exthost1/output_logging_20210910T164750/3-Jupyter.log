@@ -1,0 +1,14 @@
+Error 2021-09-10 16:47:50: extension activation failed [TypeError: o.getConfiguration(...).get(...).find is not a function
+	at new m (/home/qtile/.vscode-oss/extensions/ms-toolsai.jupyter-2021.2.603412351/out/client/extension.js:47:685418)
+	at Object.t.resolveInstance (/home/qtile/.vscode-oss/extensions/ms-toolsai.jupyter-2021.2.603412351/out/client/extension.js:47:237116)
+	at /home/qtile/.vscode-oss/extensions/ms-toolsai.jupyter-2021.2.603412351/out/client/extension.js:47:236322
+	at Object.t.resolve (/home/qtile/.vscode-oss/extensions/ms-toolsai.jupyter-2021.2.603412351/out/client/extension.js:47:236585)
+	at /home/qtile/.vscode-oss/extensions/ms-toolsai.jupyter-2021.2.603412351/out/client/extension.js:47:227686
+	at e._get (/home/qtile/.vscode-oss/extensions/ms-toolsai.jupyter-2021.2.603412351/out/client/extension.js:47:227452)
+	at e.get (/home/qtile/.vscode-oss/extensions/ms-toolsai.jupyter-2021.2.603412351/out/client/extension.js:47:226164)
+	at a.get (/home/qtile/.vscode-oss/extensions/ms-toolsai.jupyter-2021.2.603412351/out/client/extension.js:49:887437)
+	at /home/qtile/.vscode-oss/extensions/ms-toolsai.jupyter-2021.2.603412351/out/client/extension.js:47:269530
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async /home/qtile/.vscode-oss/extensions/ms-toolsai.jupyter-2021.2.603412351/out/client/extension.js:32:722103
+	at async t.activate (/home/qtile/.vscode-oss/extensions/ms-toolsai.jupyter-2021.2.603412351/out/client/extension.js:32:721813)
+	at async Promise.all (index 1)]

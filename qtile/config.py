@@ -35,6 +35,8 @@ from libqtile.utils import guess_terminal
 import os
 import subprocess
 
+from my_widgets import QuickShutdown
+
 mod = "mod4"
 terminal = "kitty"
 
@@ -177,6 +179,11 @@ widget_defaults = dict(
 )
 extension_defaults = widget_defaults.copy()
 
+# Custom widget functions
+
+def spam_disc():
+    qtile.cmd_spawncmd("discord")
+
 # Mouse Callbacks
 
 screens = [
@@ -201,10 +208,14 @@ screens = [
                 widget.Sep(linewidth=3, padding = 0, size_percent= 100, foreground=my_colors.normal),
                 widget.QuickExit(
                     background=my_colors.focus,
-                    #background='#1b413a',
                     default_text='Logout ︁',
                     countdown_format='   {}   ︁'
                 ),
+                widget.Sep(linewidth=2, padding = 0, size_percent= 100, foreground=my_colors.normal),
+                widget.Sep(linewidth=2, padding = 0, size_percent= 100, foreground=my_colors.focus),
+                QuickShutdown(
+                    background=my_colors.normal
+                )
             ],
             24,
         ),

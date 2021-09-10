@@ -3,6 +3,9 @@
     "openedPathsList": {
         "entries": [
             {
+                "folderUri": "file:///home/qtile/.config/qtile"
+            },
+            {
                 "folderUri": "file:///home/qtile"
             },
             {
@@ -50,7 +53,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -59,6 +63,19 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "fsPath": "/home/qtile/.config/qtile",
+                                        "external": "file:///home/qtile/.config/qtile",
+                                        "path": "/home/qtile/.config/qtile",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/qtile"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/qtile",
                                         "path": "/home/qtile",
                                         "scheme": "file"
                                     },
@@ -223,6 +240,10 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -586,7 +607,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.toggleMinimap",
@@ -622,8 +644,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -935,7 +956,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1123,6 +1145,11 @@
             "workbench.action.closeActiveEditor": {
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
+            },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
             },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
@@ -1511,7 +1538,8 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/qtile/.config/VSCodium/Backups/1631146535930",
+            "folder": "file:///home/qtile/.config/qtile",
+            "backupPath": "/home/qtile/.config/VSCodium/Backups/a7e32cc71e301b18916f637b3c2c3e32",
             "uiState": {
                 "mode": 1,
                 "x": 0,
@@ -1522,5 +1550,5 @@
         },
         "openedWindows": []
     },
-    "pickerWorkingDir": "/home/qtile/.config/qtile"
+    "pickerWorkingDir": "/home/qtile/.config"
 }
